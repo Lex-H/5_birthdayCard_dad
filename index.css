@@ -68,9 +68,16 @@ p {
     font-size: 5vw;
 }
 
-iframe {
+/* 給fbPost一個容器，在行動版會自動貼合容器寬度 */
+#fbPostBox {
+    width: 73vw;
+    margin: 5vw;
+}
+
+#youtube {
     width: 73vw;
     height: 41vw;
+    margin: 5vw;
 }
 
 .picContainer {
