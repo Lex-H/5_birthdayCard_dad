@@ -17,6 +17,19 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v20.0" nonce="RHiOH62i"></script>
 
+    <!-- nav -->
+    <nav>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#youtubeLink">YouTube</a>
+            <a href="#fbPostBoxLink">FaceBook</a>
+            <a href="#picContainerLink">照片</a>
+            <a href="#body">回頂部</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </nav>
+    <!-- nav結束 -->
+
     <header>
         <h1>★父親節賀卡★</h1>
     </header>
@@ -49,29 +62,33 @@
             底下的圖片點一下會放大
         </p>
 
-
+       
         <!-- Youtube -->
         <!-- width="560" height="315" -->
+        <div id="youtubeLink"></div> <!-- 導航，避免被header擋住 -->
         <iframe id="youtube" src="https://www.youtube.com/embed/videoseries?si=OMg_nJEb5tIuEuNh&amp;list=PLEgZZXbeSl28x4bzLtvzdTImS-Sk_r0Zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
         <!-- FB貼文 data-width="500" -->
         <!-- 這個貼文全限要開放所有人才能顯示，若要提前蒐集親朋好友的祝福，可以開一個新帳號給大家留言，避免被主角看到 -->
         <!-- 如果學會後端就不用這麼麻煩，自己弄一個留言板唄 -->
+        <div id="fbPostBoxLink"></div> <!-- 導航，避免被header擋住 -->
         <div id="fbPostBox">
             <div id="fbPost" class="fb-post" data-href="https://www.facebook.com/share/p/uuLzWBv2jFJKzEvu/"  data-show-text="true"></div>
         </div>
          
 
         <!-- 圖片容器 -->
-        <div class="picContainer">
+        <div id="picContainerLink"></div> <!-- 導航，避免被header擋住 -->
+        <div id="picContainer" class="picContainer">
         </div>
     </main>
-    <nav>
+    <!-- <nav>
         <div class="nav">
             <a href="#body">回到首頁</a>
         </div>
-    </nav>
-
+    </nav> -->
+    
+     
 
     <!-- slick插件 -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

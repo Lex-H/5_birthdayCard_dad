@@ -16,7 +16,6 @@ function biggerPic(el) {
 }
 
 // 批次展示照片
-var countI = 0;
 let picTemple = "";
 for (i=1;i<=36;i++) {
     var remainder = i%4;
@@ -26,10 +25,6 @@ for (i=1;i<=36;i++) {
     }else{
         picTemple = picTemple + '<img class="pic" onclick="biggerPic(this)" src="img/pic/' + i + '.webp"></img>'
     }
-
-
-    
-    countI =+1;
 }
 document.querySelector(".picContainer").innerHTML = picTemple;
 
@@ -38,3 +33,15 @@ document.querySelector(".picContainer").innerHTML = picTemple;
 // let fbPostWidth = screen.width*0.73;
 // fbPostWidth = fbPostWidth.toString();
 // document.getElementById("fbPost").setAttribute("data-width", fbPostWidth);
+
+
+// nav
+/* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
