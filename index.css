@@ -13,27 +13,30 @@
     color: #abe2ff;
 }
 
-body, h1 {
+body {
     margin: 0;
     background-color: #ffe7c4;
 }
 
 header {
     position: fixed;
-    top: 1vh;
+    top: 0;
     z-index: 1000;
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+
+
     display: flex;
     justify-content: center;
-    margin: 2vw;
+    align-items: center;
+    background-color: #ea7495;
 }
 
 h1 {
-    width: 90vw;
     text-align: center;
-    padding: 2vw;
-    background-color: #ea7495;
     font-size: 10vw;
-    border-radius: 10vw;
+    color: #37515F;
 }
 
 main {
@@ -54,17 +57,20 @@ h2 {
     padding: 2vw;
     text-align: center;
     width: 70vw;
-    border-radius: 10vw;
     background-color: #49DCB1;
     font-size: 7vw;
+    border: solid 1vw #37515F;
+    color: #37515F;
 }
 
 p {
     display: block;
     width: 70vw;
+    height: 40vh;
     margin: 5vw;
     padding: 2vw;
     background-color: #CFBAE1;
+    color: #37515F;
     font-size: 5vw;
 }
 
@@ -133,7 +139,7 @@ p {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #37515F;
   display: block;
   transition: 0.3s;
 }
@@ -157,14 +163,13 @@ p {
   font-size: 7vw;
   cursor: pointer;
   background-color: #ea7495;
-  color: black;
+  color: #37515F;
   padding: 10px 15px;
   border: none;
-  border-radius: 5vw;
 }
 
 .openbtn:hover {
-  background-color: #ea96ae;
+  color: #f1f1f1;
 }
 
 #youtubeLink, #fbPostBoxLink, #picContainerLink {
@@ -172,8 +177,3 @@ p {
     top: 10vh;
 }
 /* nav結束 */
-
-a, a:hover, a:visited, a:link, a:active  {
-    text-decoration: none;
-    color: #000;
-}
