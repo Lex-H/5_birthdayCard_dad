@@ -56,42 +56,45 @@ h2 {
     margin: 5vw;
     padding: 2vw;
     text-align: center;
-    width: 70vw;
+    width: 75vw;
     background-color: #49DCB1;
     font-size: 7vw;
     border: solid 1vw #37515F;
     color: #37515F;
 }
 
-p {
+article {
     display: block;
-    width: 70vw;
-    height: 50vh;
+    width: 80vw;
+    height: 45vh;
     margin: 5vw;
-    padding: 2vw;
     background-color: #CFBAE1;
     color: #37515F;
-    font-size: 5vw;
+    font-size: 2.2vh;
 }
 
-span {
-    color: #ff0000;
+p {
+    margin: 5vw;
+}
+
+.textRight {
+    text-align: right;
 }
 
 /* 給fbPost一個容器，在行動版會自動貼合容器寬度 */
 #fbPostBox {
-    width: 73vw;
+    width: 80vw;
     margin: 5vw;
 }
 
 #youtube {
-    width: 73vw;
+    width: 80vw;
     height: 41vw;
     margin: 5vw;
 }
 
 .picContainer {
-    width: 70vw;
+    width: 80vw;
     margin: 5vw;
     padding: 2vw;
 
@@ -103,17 +106,17 @@ span {
 }
 
 .pic {
-    width: 20vw;
+    width: 28%;
     margin: 1vw;
 }
 
 .picBig {
-    width: 65vw;
+    width: 90%;
     margin: 1vw;
 }
 
 .biggerPic {
-    width: 65vw;
+    width: 95%;
 }
 
 
