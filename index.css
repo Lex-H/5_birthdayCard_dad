@@ -66,12 +66,16 @@ h2 {
 p {
     display: block;
     width: 70vw;
-    height: 40vh;
+    height: 50vh;
     margin: 5vw;
     padding: 2vw;
     background-color: #CFBAE1;
     color: #37515F;
     font-size: 5vw;
+}
+
+span {
+    color: #ff0000;
 }
 
 /* 給fbPost一個容器，在行動版會自動貼合容器寬度 */
