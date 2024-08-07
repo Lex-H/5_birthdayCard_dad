@@ -66,11 +66,10 @@ h2 {
 article {
     display: block;
     width: 80vw;
-    height: 45vh;
     margin: 5vw;
     background-color: #CFBAE1;
     color: #37515F;
-    font-size: 2.2vh;
+    font-size: 2.5vh;
 }
 
 p {
