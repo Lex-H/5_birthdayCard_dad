@@ -68,6 +68,11 @@ p {
     font-size: 5vw;
 }
 
+iframe {
+    width: 73vw;
+    height: 41vw;
+}
+
 .picContainer {
     width: 70vw;
     margin: 5vw;

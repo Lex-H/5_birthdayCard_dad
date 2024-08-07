@@ -18,7 +18,7 @@ function biggerPic(el) {
 // 批次展示照片
 var countI = 0;
 let picTemple = "";
-for (i=1;i<=39;i++) {
+for (i=1;i<=36;i++) {
     var remainder = i%4;
     
     if (remainder == 1) {
